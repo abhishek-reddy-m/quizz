@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-krvre+ig-=8x@yx*dih6r%-q)03n&kei8gzg@^0(wu70_)@6f2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['quizz-application.onrender.com']
+ALLOWED_HOSTS = ['abhishekreddy.info','quizz-application.onrender.com']
 
 # Application definition
 
@@ -133,7 +133,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = "/static/"
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'config\static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'config/static')]
 
 
 # Default primary key field type
