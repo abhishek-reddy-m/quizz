@@ -26,8 +26,8 @@ SECRET_KEY = "django-insecure-krvre+ig-=8x@yx*dih6r%-q)03n&kei8gzg@^0(wu70_)@6f2
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = ['abhishekreddy.info','quizz-application.onrender.com']
+  
+ALLOWED_HOSTS = ['abhishekreddy.info','quizz-application.onrender.com','127.0.0.1']
 
 # Application definition
 
@@ -54,7 +54,6 @@ MIDDLEWARE = [
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
-    "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
 ROOT_URLCONF = "config.urls"
