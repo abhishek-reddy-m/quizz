@@ -34,7 +34,7 @@ class Quiz(models.Model):
 
     @property
     def remaining(self):
-        return self.total_questions - self.questions.all().count() - 1
+        return self.total_questions - self.questions.all().count()
 
 
 class Question(models.Model):
